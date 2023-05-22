@@ -76,9 +76,9 @@ pki: ## Init PKI - Create your CA certificates
 	docker run -v $(OVPN_DATA):/etc/openvpn --log-driver=none --rm -it $(OVPN_RNAME):$(OVPN_MODE) touch /etc/openvpn/vars
 	docker run -v $(OVPN_DATA):/etc/openvpn --log-driver=none --rm -it $(OVPN_RNAME):$(OVPN_MODE) ovpn_initpki
 init: volume config pki ## Execute volume, config, pki all together
-start: ## Start VPN Server on the External EPORT 
+start: ## Start VPN Server on the External OVPN_EPORT 
 	docker run --restart=always --name myopenvpn -v $(OVPN_DATA):/etc/openvpn -d -p $(OVPN_EPORT):1194/udp --cap-add=NET_ADMIN $(OVPN_RNAME):$(OVPN_MODE)
-stop: ##  Stop and remove the VPN Server on the External EPORT 
+stop: ##  Stop and remove the VPN Server  
 	docker stop myopenvpn
 	docker rm myopenvpn
 status: ## Examine the status of connected clients
