@@ -1,2 +1,0 @@
-# jkaovpn
-JKA OpenVPN docker
