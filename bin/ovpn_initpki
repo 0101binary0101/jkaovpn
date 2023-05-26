@@ -24,7 +24,14 @@ easyrsa init-pki
 easyrsa build-ca $nopass
 
 easyrsa gen-dh
-openvpn --genkey --secret $EASYRSA_PKI/ta.key
+if [ -n "$OVPN_TLS_CRYPT" ]; then
+  #tls-crypt
+  openvpn --genkey --secret $EASYRSA_PKI/tc.key
+else
+  # tls-auth
+  openvpn --genkey --secret $EASYRSA_PKI/ta.key
+fi
+
 
 # Was nice to autoset, but probably a bad idea in practice, users should
 # have to explicitly specify the common name of their server
