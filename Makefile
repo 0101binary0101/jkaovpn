@@ -67,7 +67,7 @@ bootstrap: ## Start multicompiler
 # Operations
 
 console: ## Start console in container
-	docker run -it --rm --entrypoint "/bin/ash" $(OVPN_RNAME):$(OVPN_MODE) $(OVPN_CMD)
+	docker run -v $(OVPN_DATA):/etc/openvpn -it --rm --entrypoint "/bin/ash" $(OVPN_RNAME):$(OVPN_MODE) $(OVPN_CMD)
 volume: ## Create OVPN_DATA Volume
 	docker volume create --name $(OVPN_DATA)
 config: ## Generate openvpn server configuration
