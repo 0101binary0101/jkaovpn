@@ -36,8 +36,25 @@ client
 nobind
 dev $OVPN_DEVICE
 remote-cert-tls server
+explicit-exit-notify
+auth-nocache
+persist-key
+persist-tun
+verb 3
+proto $OVPN_PROTO
+
 
 remote $OVPN_CN $OVPN_PORT $OVPN_PROTO"
+
+x509verify=`openssl x509 -in $EASYRSA_PKI/issued/${OVPN_CN}.crt -noout -text | grep 'Subject: CN =' | awk -F = '{print $2 }'`
+    if [ "$x509verify" == "" ]; then
+        echo "**** ERROR WITH CN OF X509 Server Certificate ****"
+        exit
+    else
+        echo "verify-x509-name ${x509verify} name"
+    fi
+    
+
     if [ "$OVPN_PROTO" == "udp6" ]; then
         echo "remote $OVPN_CN $OVPN_PORT udp"
     fi
