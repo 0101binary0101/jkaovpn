@@ -84,6 +84,8 @@ stop: ##  Stop and remove the VPN Server
 status: ## Examine the status of connected clients
 	docker exec -ti myopenvpn ovpn_status
 
+restart: status stop start status ## Reboot the running vpn with latest build
+
 client: ## Create ovpn client file using the name from CLIENTNAME
 	docker run -v $(OVPN_DATA):/etc/openvpn --log-driver=none --rm -it $(OVPN_RNAME):$(OVPN_MODE) easyrsa build-client-full $(OVPN_CLIENTNAME) nopass
 retrieve: ## Retrieve ovpn client file using the name from CLIENTNAME and output into current directory
