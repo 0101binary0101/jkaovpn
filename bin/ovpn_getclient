@@ -76,7 +76,7 @@ $(openssl x509 -in $EASYRSA_PKI/issued/${cn}.crt)
 $(cat $EASYRSA_PKI/ca.crt)
 </ca>
 "
-    if [ -n "$OVPN_TLS_CRYPT" ]; then
+    if [ $OVPN_TLS_CRYPT" == "1" ]; then
         echo "
 <tls-crypt>
 $(cat $EASYRSA_PKI/tc.key)
