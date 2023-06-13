@@ -82,7 +82,7 @@ stop: ##  Stop and remove the VPN Server
 	docker stop myopenvpn
 	docker rm myopenvpn
 status: ## Examine the status of connected clients
-	docker exec -ti myopenvpn ovpn_status
+	docker exec myopenvpn ovpn_status
 
 restart: status stop start status ## Reboot the running vpn with latest build
 
