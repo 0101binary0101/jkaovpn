@@ -1,55 +1,55 @@
 WARNING: opening from cache https://dl-cdn.alpinelinux.org/alpine/v3.18/main: No such file or directory
 WARNING: opening from cache https://dl-cdn.alpinelinux.org/alpine/v3.18/community: No such file or directory
 WARNING: opening from cache http://dl-cdn.alpinelinux.org/alpine/edge/testing/: No such file or directory
-alpine-baselayout-3.4.3-r1 x86_64 {alpine-baselayout} (GPL-2.0-only) [installed]
-alpine-baselayout-data-3.4.3-r1 x86_64 {alpine-baselayout} (GPL-2.0-only) [installed]
-alpine-keys-2.4-r1 x86_64 {alpine-keys} (MIT) [installed]
-apk-tools-2.14.0-r0 x86_64 {apk-tools} (GPL-2.0-only) [installed]
-bash-5.2.15-r5 x86_64 {bash} (GPL-3.0-or-later) [installed]
-busybox-1.36.0-r9 x86_64 {busybox} (GPL-2.0-only) [installed]
-busybox-binsh-1.36.0-r9 x86_64 {busybox} (GPL-2.0-only) [installed]
-ca-certificates-bundle-20230506-r0 x86_64 {ca-certificates} (MPL-2.0 AND MIT) [installed]
-easy-rsa-3.1.2-r0 x86_64 {easy-rsa} (GPL-2.0-only) [installed]
-google-authenticator-1.09-r2 x86_64 {google-authenticator} (Apache-2.0) [installed]
-iproute2-minimal-6.3.0-r0 x86_64 {iproute2} (GPL-2.0-or-later) [installed]
-iptables-1.8.9-r2 x86_64 {iptables} (GPL-2.0-or-later) [installed]
-libbz2-1.0.8-r5 x86_64 {bzip2} (bzip2-1.0.6) [installed]
-libc-utils-0.7.2-r5 x86_64 {libc-dev} (BSD-2-Clause AND BSD-3-Clause) [installed]
-libcap-ng-0.8.3-r3 x86_64 {libcap-ng} (GPL-2.0-or-later AND LGPL-2.1-or-later) [installed]
-libcap2-2.69-r0 x86_64 {libcap} (BSD-3-Clause OR GPL-2.0-only) [installed]
-libcrypto3-3.1.0-r4 x86_64 {openssl} (Apache-2.0) [installed]
-libelf-0.189-r2 x86_64 {elfutils} (GPL-3.0-or-later AND ( GPL-2.0-or-later OR LGPL-3.0-or-later )) [installed]
-libmnl-1.0.5-r1 x86_64 {libmnl} (LGPL-2.1-or-later) [installed]
-libncursesw-6.4_p20230506-r0 x86_64 {ncurses} (X11) [installed]
-libnftnl-1.2.5-r1 x86_64 {libnftnl} (GPL-2.0-or-later) [installed]
-libpng-1.6.39-r3 x86_64 {libpng} (Libpng) [installed]
-libqrencode-4.1.1-r1 x86_64 {libqrencode} (LGPL-2.1-or-later) [installed]
-libssl3-3.1.0-r4 x86_64 {openssl} (Apache-2.0) [installed]
-linux-pam-1.5.2-r10 x86_64 {linux-pam} (BSD-3-Clause) [installed]
-lz4-libs-1.9.4-r4 x86_64 {lz4} (BSD-2-Clause AND GPL-2.0-only) [installed]
-lzo-2.10-r5 x86_64 {lzo} (GPL-2.0-or-later) [installed]
-musl-1.2.4-r0 x86_64 {musl} (MIT) [installed]
-musl-fts-1.2.7-r5 x86_64 {musl-fts} (BSD-3-Clause) [installed]
-musl-utils-1.2.4-r0 x86_64 {musl} (MIT AND BSD-2-Clause AND GPL-2.0-or-later) [installed]
-ncurses-terminfo-base-6.4_p20230506-r0 x86_64 {ncurses} (X11) [installed]
-openssl-3.1.0-r4 x86_64 {openssl} (Apache-2.0) [installed]
-openvpn-2.6.4-r0 x86_64 {openvpn} (custom) [installed]
-openvpn-auth-pam-2.6.4-r0 x86_64 {openvpn} (custom) [installed]
-pamtester-0.1.2-r3 x86_64 {pamtester} (BSD-3-Clause) [installed]
-readline-8.2.1-r1 x86_64 {readline} (GPL-2.0-or-later) [installed]
-scanelf-1.3.7-r1 x86_64 {pax-utils} (GPL-2.0-only) [installed]
-ssl_client-1.36.0-r9 x86_64 {busybox} (GPL-2.0-only) [installed]
-xz-libs-5.4.3-r0 x86_64 {xz} (GPL-2.0-or-later AND Public-Domain AND LGPL-2.1-or-later) [installed]
-zlib-1.2.13-r1 x86_64 {zlib} (Zlib) [installed]
-zstd-libs-1.5.5-r4 x86_64 {zstd} (BSD-3-Clause GPL-2.0-or-later) [installed]
+alpine-baselayout-3.4.3-r1 aarch64 {alpine-baselayout} (GPL-2.0-only) [installed]
+alpine-baselayout-data-3.4.3-r1 aarch64 {alpine-baselayout} (GPL-2.0-only) [installed]
+alpine-keys-2.4-r1 aarch64 {alpine-keys} (MIT) [installed]
+apk-tools-2.14.0-r0 aarch64 {apk-tools} (GPL-2.0-only) [installed]
+bash-5.2.15-r5 aarch64 {bash} (GPL-3.0-or-later) [installed]
+busybox-1.36.0-r9 aarch64 {busybox} (GPL-2.0-only) [installed]
+busybox-binsh-1.36.0-r9 aarch64 {busybox} (GPL-2.0-only) [installed]
+ca-certificates-bundle-20230506-r0 aarch64 {ca-certificates} (MPL-2.0 AND MIT) [installed]
+easy-rsa-3.1.2-r0 aarch64 {easy-rsa} (GPL-2.0-only) [installed]
+google-authenticator-1.09-r2 aarch64 {google-authenticator} (Apache-2.0) [installed]
+iproute2-minimal-6.3.0-r0 aarch64 {iproute2} (GPL-2.0-or-later) [installed]
+iptables-1.8.9-r2 aarch64 {iptables} (GPL-2.0-or-later) [installed]
+libbz2-1.0.8-r5 aarch64 {bzip2} (bzip2-1.0.6) [installed]
+libc-utils-0.7.2-r5 aarch64 {libc-dev} (BSD-2-Clause AND BSD-3-Clause) [installed]
+libcap-ng-0.8.3-r3 aarch64 {libcap-ng} (GPL-2.0-or-later AND LGPL-2.1-or-later) [installed]
+libcap2-2.69-r0 aarch64 {libcap} (BSD-3-Clause OR GPL-2.0-only) [installed]
+libcrypto3-3.1.1-r1 aarch64 {openssl} (Apache-2.0) [installed]
+libelf-0.189-r2 aarch64 {elfutils} (GPL-3.0-or-later AND ( GPL-2.0-or-later OR LGPL-3.0-or-later )) [installed]
+libmnl-1.0.5-r1 aarch64 {libmnl} (LGPL-2.1-or-later) [installed]
+libncursesw-6.4_p20230506-r0 aarch64 {ncurses} (X11) [installed]
+libnftnl-1.2.5-r1 aarch64 {libnftnl} (GPL-2.0-or-later) [installed]
+libpng-1.6.39-r3 aarch64 {libpng} (Libpng) [installed]
+libqrencode-4.1.1-r1 aarch64 {libqrencode} (LGPL-2.1-or-later) [installed]
+libssl3-3.1.1-r1 aarch64 {openssl} (Apache-2.0) [installed]
+linux-pam-1.5.2-r10 aarch64 {linux-pam} (BSD-3-Clause) [installed]
+lz4-libs-1.9.4-r4 aarch64 {lz4} (BSD-2-Clause AND GPL-2.0-only) [installed]
+lzo-2.10-r5 aarch64 {lzo} (GPL-2.0-or-later) [installed]
+musl-1.2.4-r0 aarch64 {musl} (MIT) [installed]
+musl-fts-1.2.7-r5 aarch64 {musl-fts} (BSD-3-Clause) [installed]
+musl-utils-1.2.4-r0 aarch64 {musl} (MIT AND BSD-2-Clause AND GPL-2.0-or-later) [installed]
+ncurses-terminfo-base-6.4_p20230506-r0 aarch64 {ncurses} (X11) [installed]
+openssl-3.1.1-r1 aarch64 {openssl} (Apache-2.0) [installed]
+openvpn-2.6.4-r0 aarch64 {openvpn} (custom) [installed]
+openvpn-auth-pam-2.6.4-r0 aarch64 {openvpn} (custom) [installed]
+pamtester-0.1.2-r3 aarch64 {pamtester} (BSD-3-Clause) [installed]
+readline-8.2.1-r1 aarch64 {readline} (GPL-2.0-or-later) [installed]
+scanelf-1.3.7-r1 aarch64 {pax-utils} (GPL-2.0-only) [installed]
+ssl_client-1.36.0-r9 aarch64 {busybox} (GPL-2.0-only) [installed]
+xz-libs-5.4.3-r0 aarch64 {xz} (GPL-2.0-or-later AND Public-Domain AND LGPL-2.1-or-later) [installed]
+zlib-1.2.13-r1 aarch64 {zlib} (Zlib) [installed]
+zstd-libs-1.5.5-r4 aarch64 {zstd} (BSD-3-Clause GPL-2.0-or-later) [installed]
 total 48
--rwxr-xr-x    1 root     root          1072 May 22 13:44 [1;32movpn_copy_server_files[m
--rwxr-xr-x    1 root     root         10873 May 22 13:44 [1;32movpn_genconfig[m
--rwxr-xr-x    1 root     root          2978 May 22 13:44 [1;32movpn_getclient[m
--rwxr-xr-x    1 root     root           603 May 22 13:44 [1;32movpn_getclient_all[m
--rwxr-xr-x    1 root     root          1143 May 22 13:44 [1;32movpn_initpki[m
--rwxr-xr-x    1 root     root          1381 May 22 13:44 [1;32movpn_listclients[m
--rwxr-xr-x    1 root     root          1240 May 22 13:44 [1;32movpn_otp_user[m
--rwxr-xr-x    1 root     root          1551 May 22 13:44 [1;32movpn_revokeclient[m
--rwxr-xr-x    1 root     root          3045 May 22 13:44 [1;32movpn_run[m
--rwxr-xr-x    1 root     root           121 May 22 13:44 [1;32movpn_status[m
+-rwxr-xr-x    1 root     root          1072 May 19 04:52 [1;32movpn_copy_server_files[m
+-rwxr-xr-x    1 root     root         11007 May 26 14:33 [1;32movpn_genconfig[m
+-rwxr-xr-x    1 root     root          3519 Jun  5 11:50 [1;32movpn_getclient[m
+-rwxr-xr-x    1 root     root           603 May 19 04:52 [1;32movpn_getclient_all[m
+-rwxr-xr-x    1 root     root          1262 May 26 14:33 [1;32movpn_initpki[m
+-rwxr-xr-x    1 root     root          1381 May 19 04:52 [1;32movpn_listclients[m
+-rwxr-xr-x    1 root     root          1240 May 19 04:52 [1;32movpn_otp_user[m
+-rwxr-xr-x    1 root     root          1551 May 19 05:01 [1;32movpn_revokeclient[m
+-rwxr-xr-x    1 root     root          3045 May 19 04:52 [1;32movpn_run[m
+-rwxr-xr-x    1 root     root           121 May 20 10:21 [1;32movpn_status[m
