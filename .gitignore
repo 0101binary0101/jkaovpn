@@ -1,3 +1,4 @@
 builds/
 ignored-sources/
 *.ovpn
+nohup.out
